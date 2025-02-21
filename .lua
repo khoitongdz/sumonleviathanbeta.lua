@@ -27,7 +27,7 @@ local _MainThread=function()
         _Island.Parent=game.Workspace
         
         game:GetService("TweenService"):Create(_Island,TweenInfo.new(5,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),{Position=_RootPart.Position+Vector3.new(0,-10,0)}):Play()
-        game:GetService("Debris"):AddItem(_Island,300)
+        game:GetService("Debris"):AddItem(_Island,9000)
         
         local _Boss=Instance.new("Model")
         _Boss.Name="Leviathan"
